@@ -23,6 +23,7 @@
  Phone :  9495543212<br/>
  Fax :  9495543212<br/>
  Email :  info@apex.com<br/>
+ <h3>VENDOR REGISTRATION FORM</h3>
  </div>
  
  <form method="POST" class="register-form" id="">
@@ -34,31 +35,27 @@
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-home"></i></label>
  <input type="text" name="cname" id="cname" placeholder="Company Name"/>
- </div>                         
+ </div>    
+ <div class="form-group">
+ <label for="re-pass"><i class="zmdi zmdi-view-subtitles"></i></label>
+ <input type="text" name="nametitle" id="nametitle" placeholder="Contact Name and Title"/>
+ </div>
+ <div class="form-group">
+ <label for="text"><i class="zmdi zmdi-code-smartphone"></i></label>
+ <input type="number" name="telephoneone" id="telephoneone" placeholder="Mobile Number"/>
+ </div>                     
  <div class="form-group">
  <label for="text"><i class="zmdi zmdi-phone-sip"></i></label>
- <input type="text" name="telephone" id="telephone" placeholder="Telephone"/>
+ <input type="number" name="telephone" id="telephone" placeholder="Telephone"/>
  </div>                       
  <div class="form-group">
  <label for="re-pass"><i class="zmdi zmdi-collection-bookmark"></i></label>
  <input type="text" name="fax" id="fax" placeholder="Fax"/>
  </div>
- <div class="form-group">
- <label for="re-pass"><i class="zmdi zmdi-view-subtitles"></i></label>
- <input type="text" name="nametitle" id="nametitle" placeholder="Contact Name and Title"/>
- </div>                         
- <div class="form-group">
- <label for="text"><i class="zmdi zmdi-code-smartphone"></i></label>
- <input type="text" name="telephoneone" id="telephoneone" placeholder="Contact Phone (1)"/>
- </div>               
- <div class="form-group">
- <label for="text"><i class="zmdi zmdi-smartphone-ring"></i></label>
- <input type="text" name="telephonetwo" id="telephonetwo" placeholder="Contact Phone (2)"/>
- </div>                                                  
- <h2 class="form-title">Vendor Registration Form</h2>       
+                                                                        
  <div class="form-group">
  <label for="text"><i class="zmdi zmdi-assignment"></i></label>
- <input type="text" name="address" id="address" placeholder="Mailing Address"/>
+ <input type="email" name="email" id="email" placeholder="Mailing Address"/>
  </div> 
  <div class="form-group">
  <label for="text"><i class="zmdi zmdi-link"></i></label>
@@ -77,9 +74,10 @@
  <div class="signup-content">
  <div class="signup-form">
  <h2 class="form-title">Company Overview</h2>
+ <div class="form-group_text">Company Established Date</div>
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-store"></i></label>
- <input type="text" name="date" id="date" placeholder="Company Established Date"/>
+ <input type="date" name="edate" id="edate" placeholder="Company Established Date"/>
  </div>                         
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-card"></i></label>
@@ -110,12 +108,12 @@
  <input type="text" name="licensenumber" id="licensenumber" placeholder="license Number?"/>
  </div>
  <div class="form-group">
- <label for="name"><i class="zmdi zmdi-sun"></i></label>
- <input type="text" name="bonded" id="bonded" placeholder="Bonded?"/>
- </div>
- <div class="form-group">
  <label for="name"><i class="zmdi zmdi-library"></i></label>
  <input type="text" name="structure" id="structure" placeholder="Legal Structure"/>
+ </div>
+ <div class="form-group">
+ <label for="name"><i class="zmdi zmdi-sun"></i></label>
+ <input type="text" name="bonded" id="bonded" placeholder="Bonded?"/>
  </div>
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-notifications"></i></label>
@@ -139,16 +137,16 @@
  <div class="signup-form">
  <h2 class="form-title">Banking Information</h2>
  <div class="form-group">
- <label for="name"><i class="zmdi zmdi-edit"></i></label>
- <input type="text" name="acnumber" id="acnumber" placeholder="Account Number"/>
- </div>
- <div class="form-group">
  <label for="name"><i class="zmdi zmdi-collection-speaker"></i></label>
  <input type="text" name="bankname" id="bankname" placeholder="Bank Name"/>
  </div>
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-labels"></i></label>
  <input type="text" name="bankaddress" id="bankaddress" placeholder="Bank Address"/>
+ </div>
+ <div class="form-group">
+ <label for="name"><i class="zmdi zmdi-edit"></i></label>
+ <input type="text" name="acnumber" id="acnumber" placeholder="Account Number"/>
  </div>
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-accounts-outline"></i></label>
@@ -177,16 +175,18 @@
  <input type="text" name="pname" id="pname" placeholder="Printed/Typed Name"/>
  </div>
  <div class="form-group">
- <label for="name" ><i class="zmdi zmdi-border-color"> Signature </i></label>
- <input type="file" name="signature" id="signature"/>
+
+ <label for="name" ><i class="zmdi zmdi-border-color"> Signature:</i></label>
+ <input type="file" class="input_sig" name="signature" id="signature"/>
  </div>
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-format-valign-top"></i></label>
  <input type="text" name="title" id="title" placeholder="Title"/>
  </div>
+ <div class="form-group_text">Date</div>
  <div class="form-group">
  <label for="name"><i class="zmdi zmdi-calendar-check"></i></label>
- <input type="text" name="date" id="date" placeholder="Date"/>
+ <input type="date" name="tdate" id="tdate" placeholder="Date"/>
  </div>
  <div class="form-group form-button">
  <input type="submit" name="submit" id="submit" class="form-submit" value="Submit"/>
