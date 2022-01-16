@@ -180,7 +180,7 @@ h2 {
   line-height: 1.66;
   margin: 0;
   padding: 0;
-  font-weight: bold;
+  font-weight: 500;
   color: #3a95d1;
   font-family: Poppins;
   font-size: 20px; }
@@ -221,8 +221,9 @@ body {
 
  .container_logo_text {
   width: 900px; font-family: Poppins; color:#222; text-align:center;
-  margin: 0 auto;padding-bottom:40px;padding-top: 15px;font-size:14px; line-height:22px;}  
+  margin: 0 auto;padding-bottom:20px;padding-top: 15px;font-size:14px; line-height:22px;}  
 .container_logo_text h4{ font-size: 18px; font-weight:800;margin-bottom:0px;}
+.container_logo_text h3{ font-size: 22px; font-weight:500;margin-bottom:0px; color:#3a95d1;}
 
 .display-flex {
   justify-content: space-between;
@@ -328,10 +329,18 @@ figure {
 
 .form-group {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   overflow: hidden; }
   .form-group:last-child {
     margin-bottom: 0px; }
+
+.form-group_text {
+  position: relative; font-family: Poppins; font-size:13px; color:#cdcdcd;
+  margin-bottom:0px;
+  overflow: hidden; }
+  .form-group_text:last-child {
+    margin-bottom: 0px; }
+
 
 input {
   width: 100%;
@@ -360,7 +369,7 @@ input {
     input:focus:-moz-placeholder {
       color: #222; }
 
-input_sig {
+.input_sig {
   width: 100%;
   display: block;
   border: none;
